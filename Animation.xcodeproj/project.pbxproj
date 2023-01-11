@@ -16,6 +16,7 @@
 		2390443C296C5AFB008B94E8 /* Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390443B296C5AFB008B94E8 /* Challenge2.swift */; };
 		23904442296DD5FC008B94E8 /* Exercise2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23904441296DD5FC008B94E8 /* Exercise2.swift */; };
 		23904445296EA75D008B94E8 /* Exercise1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23904444296EA75D008B94E8 /* Exercise1.swift */; };
+		23904447296EAB04008B94E8 /* Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23904446296EAB04008B94E8 /* Challenge3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2390443B296C5AFB008B94E8 /* Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2.swift; sourceTree = "<group>"; };
 		23904441296DD5FC008B94E8 /* Exercise2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise2.swift; sourceTree = "<group>"; };
 		23904444296EA75D008B94E8 /* Exercise1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1.swift; sourceTree = "<group>"; };
+		23904446296EAB04008B94E8 /* Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				23904428296B07CB008B94E8 /* AnimationApp.swift */,
 				23904439296C241B008B94E8 /* Challenge1.swift */,
 				2390443B296C5AFB008B94E8 /* Challenge2.swift */,
+				23904446296EAB04008B94E8 /* Challenge3.swift */,
 				2390442A296B07CB008B94E8 /* ContentView.swift */,
 				23904444296EA75D008B94E8 /* Exercise1.swift */,
 				23904441296DD5FC008B94E8 /* Exercise2.swift */,
@@ -166,6 +169,7 @@
 				2390443C296C5AFB008B94E8 /* Challenge2.swift in Sources */,
 				2390443A296C241B008B94E8 /* Challenge1.swift in Sources */,
 				23904442296DD5FC008B94E8 /* Exercise2.swift in Sources */,
+				23904447296EAB04008B94E8 /* Challenge3.swift in Sources */,
 				2390442B296B07CB008B94E8 /* ContentView.swift in Sources */,
 				23904429296B07CB008B94E8 /* AnimationApp.swift in Sources */,
 				23904445296EA75D008B94E8 /* Exercise1.swift in Sources */,
