@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Exercise2: View {
+struct SpringAnimationsExercise: View {
     @State private var show = false
     
     var body: some View {
@@ -64,8 +64,8 @@ struct Exercise2: View {
     }
 }
 
-struct Exercise2_Previews: PreviewProvider {
+struct SpringAnimationsExercise_Previews: PreviewProvider {
     static var previews: some View {
-        Exercise2()
+        SpringAnimationsExercise()
     }
 }

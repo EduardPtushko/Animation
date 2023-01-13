@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Challenge1: View {
+struct AnimationOptionsChallenge: View {
     @State private var isShowing = false
     @State private var isFadeIn = false
     
@@ -74,9 +74,9 @@ struct Challenge1: View {
     }
 }
 
-struct Challenge1_Previews: PreviewProvider {
+struct AnimationOptionsChallenge_Previews: PreviewProvider {
     static var previews: some View {
-        Challenge1()
+        AnimationOptionsChallenge()
     }
 }
 

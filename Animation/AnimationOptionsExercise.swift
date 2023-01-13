@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Exercise1: View {
+struct AnimationOptionsExercise: View {
     @State private var showForm = false
     @State private var username = ""
     @State private var password = ""
@@ -96,8 +96,8 @@ struct Exercise1: View {
     }
 }
 
-struct Exercise1_Previews: PreviewProvider {
+struct AnimationOptionsExercise_Previews: PreviewProvider {
     static var previews: some View {
-        Exercise1()
+        AnimationOptionsExercise()
     }
 }

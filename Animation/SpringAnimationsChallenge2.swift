@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Challenge3: View {
+struct SpringAnimationsChallenge2: View {
     @State private var activeButton = 1
     
     var isContinue: Bool {
@@ -116,9 +116,9 @@ struct Challenge3: View {
     }
 }
 
-struct Challenge3_Previews: PreviewProvider {
+struct SpringAnimationsChallenge2_Previews: PreviewProvider {
     static var previews: some View {
-        Challenge3()
+        SpringAnimationsChallenge2()
     }
 }
 
