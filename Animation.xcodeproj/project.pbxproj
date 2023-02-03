@@ -20,6 +20,7 @@
 		23904447296EAB04008B94E8 /* SpringAnimationsChallenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23904446296EAB04008B94E8 /* SpringAnimationsChallenge2.swift */; };
 		2390444B296F24EF008B94E8 /* TransitionsExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2390444A296F24EF008B94E8 /* TransitionsExercise.swift */; };
 		23C9C2C4297801290028F3AE /* TransitionsChallenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C9C2C3297801290028F3AE /* TransitionsChallenge2.swift */; };
+		23F2625B2979C9BC00C51186 /* CustomTimingCurveExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F2625A2979C9BB00C51186 /* CustomTimingCurveExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		23904446296EAB04008B94E8 /* SpringAnimationsChallenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimationsChallenge2.swift; sourceTree = "<group>"; };
 		2390444A296F24EF008B94E8 /* TransitionsExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsExercise.swift; sourceTree = "<group>"; };
 		23C9C2C3297801290028F3AE /* TransitionsChallenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsChallenge2.swift; sourceTree = "<group>"; };
+		23F2625A2979C9BB00C51186 /* CustomTimingCurveExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimingCurveExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,17 +72,18 @@
 		23904427296B07CB008B94E8 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				23904438296B0925008B94E8 /* Info.plist */,
 				23904428296B07CB008B94E8 /* AnimationApp.swift */,
 				23904439296C241B008B94E8 /* AnimationOptionsChallenge.swift */,
-				2390444A296F24EF008B94E8 /* TransitionsExercise.swift */,
-				236620302975D3F70099F6A3 /* TransitionsChallenge1.swift */,
-				23C9C2C3297801290028F3AE /* TransitionsChallenge2.swift */,
+				23904444296EA75D008B94E8 /* AnimationOptionsExercise.swift */,
+				2390442A296B07CB008B94E8 /* ContentView.swift */,
+				23F2625A2979C9BB00C51186 /* CustomTimingCurveExample.swift */,
 				2390443B296C5AFB008B94E8 /* SpringAnimationsChallenge.swift */,
 				23904446296EAB04008B94E8 /* SpringAnimationsChallenge2.swift */,
-				2390442A296B07CB008B94E8 /* ContentView.swift */,
-				23904444296EA75D008B94E8 /* AnimationOptionsExercise.swift */,
 				23904441296DD5FC008B94E8 /* SpringAnimationsExercise.swift */,
-				23904438296B0925008B94E8 /* Info.plist */,
+				236620302975D3F70099F6A3 /* TransitionsChallenge1.swift */,
+				23C9C2C3297801290028F3AE /* TransitionsChallenge2.swift */,
+				2390444A296F24EF008B94E8 /* TransitionsExercise.swift */,
 				2390442E296B07CF008B94E8 /* Preview Content */,
 				23904443296EA64B008B94E8 /* Resources */,
 			);
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F2625B2979C9BC00C51186 /* CustomTimingCurveExample.swift in Sources */,
 				2390443C296C5AFB008B94E8 /* SpringAnimationsChallenge.swift in Sources */,
 				2390443A296C241B008B94E8 /* AnimationOptionsChallenge.swift in Sources */,
 				23904442296DD5FC008B94E8 /* SpringAnimationsExercise.swift in Sources */,
