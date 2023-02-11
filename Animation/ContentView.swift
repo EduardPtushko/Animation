@@ -11,36 +11,51 @@ struct ContentView: View  {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink(destination: AnimationOptionsExercise()) {
-                    Text("AnimationOptionsExercise")
+                Group {
+                    NavigationLink(destination: AnimationOptionsExercise()) {
+                        Text("AnimationOptionsExercise")
+                    }
+                    NavigationLink(destination: AnimationOptionsChallenge()) {
+                        Text("AnimationOptionsChallenge")
+                    }
                 }
-                NavigationLink(destination: AnimationOptionsChallenge()) {
-                    Text("AnimationOptionsChallenge")
+                Group {
+                    NavigationLink(destination: SpringAnimationsExercise()) {
+                        Text("SpringAnimationsExercise")
+                    }
+                    NavigationLink(destination: SpringAnimationsChallenge()) {
+                        Text("SpringAnimationsChallenge")
+                    }
+                    NavigationLink(destination: SpringAnimationsChallenge2()) {
+                        Text("SpringAnimationsChallenge2")
+                    }
                 }
-                NavigationLink(destination: SpringAnimationsExercise()) {
-                    Text("SpringAnimationsExercise")
+                Group{
+                    NavigationLink(destination: TransitionsExercise()) {
+                        Text("TransitionsExercise")
+                    }
+                    NavigationLink(destination: TransitionsChallenge1()) {
+                        Text("TransitionsChallenge1")
+                    }
+                    NavigationLink(destination: TransitionsChallenge2()) {
+                        Text("TransitionsChallenge2")
+                    }
                 }
-                NavigationLink(destination: SpringAnimationsChallenge()) {
-                    Text("SpringAnimationsChallenge")
+                Group{
+                    NavigationLink(destination: CustomTimingCurveExample()) {
+                        Text("CustomTimingCurveExample")
+                    }
+                    NavigationLink(destination: CustomTimingChallenge()) {
+                        Text("CustomTimingChallenge")
+                    }
                 }
-                NavigationLink(destination: SpringAnimationsChallenge2()) {
-                    Text("SpringAnimationsChallenge2")
-                }
-                NavigationLink(destination: TransitionsExercise()) {
-                    Text("TransitionsExercise")
-                }
-                NavigationLink(destination: TransitionsChallenge1()) {
-                    Text("TransitionsChallenge1")
-                }
-                NavigationLink(destination: TransitionsChallenge2()) {
-                    Text("TransitionsChallenge2")
-                }
-                
-                NavigationLink(destination: CustomTimingCurveExample()) {
-                    Text("CustomTimingCurveExample")
+                Group {
+                    NavigationLink(destination: MatchedGeometryEffectExample()) {
+                        Text("MatchedGeometryEffectExample")
+                    }
                 }
             }
-            .navigationBarTitle("SwiftUI Animations")
+
         }
         
     }
