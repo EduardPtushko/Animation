@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		23153962299177E0000A54A8 /* MatchedGeometryEffectExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23153961299177E0000A54A8 /* MatchedGeometryEffectExample.swift */; };
 		2315396429917961000A54A8 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2315396329917961000A54A8 /* Items.swift */; };
+		233C5C0F2997D48900792AAA /* MatchedGeometryEffectChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233C5C0E2997D48900792AAA /* MatchedGeometryEffectChallenge.swift */; };
+		233C5C112997D4DE00792AAA /* UtilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233C5C102997D4DE00792AAA /* UtilityViews.swift */; };
 		234F4C91298EAC84004F1652 /* CustomTimingChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234F4C90298EAC84004F1652 /* CustomTimingChallenge.swift */; };
 		236620312975D3F70099F6A3 /* TransitionsChallenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236620302975D3F70099F6A3 /* TransitionsChallenge1.swift */; };
 		23904429296B07CB008B94E8 /* AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23904428296B07CB008B94E8 /* AnimationApp.swift */; };
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		23153961299177E0000A54A8 /* MatchedGeometryEffectExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectExample.swift; sourceTree = "<group>"; };
 		2315396329917961000A54A8 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		233C5C0E2997D48900792AAA /* MatchedGeometryEffectChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectChallenge.swift; sourceTree = "<group>"; };
+		233C5C102997D4DE00792AAA /* UtilityViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityViews.swift; sourceTree = "<group>"; };
 		234F4C90298EAC84004F1652 /* CustomTimingChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimingChallenge.swift; sourceTree = "<group>"; };
 		236620302975D3F70099F6A3 /* TransitionsChallenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionsChallenge1.swift; sourceTree = "<group>"; };
 		23904425296B07CB008B94E8 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,21 +82,23 @@
 		23904427296B07CB008B94E8 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				23904438296B0925008B94E8 /* Info.plist */,
 				23904428296B07CB008B94E8 /* AnimationApp.swift */,
 				23904439296C241B008B94E8 /* AnimationOptionsChallenge.swift */,
 				23904444296EA75D008B94E8 /* AnimationOptionsExercise.swift */,
 				2390442A296B07CB008B94E8 /* ContentView.swift */,
 				234F4C90298EAC84004F1652 /* CustomTimingChallenge.swift */,
 				23F2625A2979C9BB00C51186 /* CustomTimingCurveExample.swift */,
-				23153961299177E0000A54A8 /* MatchedGeometryEffectExample.swift */,
 				2315396329917961000A54A8 /* Items.swift */,
+				233C5C0E2997D48900792AAA /* MatchedGeometryEffectChallenge.swift */,
+				23153961299177E0000A54A8 /* MatchedGeometryEffectExample.swift */,
 				2390443B296C5AFB008B94E8 /* SpringAnimationsChallenge.swift */,
 				23904446296EAB04008B94E8 /* SpringAnimationsChallenge2.swift */,
 				23904441296DD5FC008B94E8 /* SpringAnimationsExercise.swift */,
 				236620302975D3F70099F6A3 /* TransitionsChallenge1.swift */,
 				23C9C2C3297801290028F3AE /* TransitionsChallenge2.swift */,
 				2390444A296F24EF008B94E8 /* TransitionsExercise.swift */,
+				233C5C102997D4DE00792AAA /* UtilityViews.swift */,
+				23904438296B0925008B94E8 /* Info.plist */,
 				2390442E296B07CF008B94E8 /* Preview Content */,
 				23904443296EA64B008B94E8 /* Resources */,
 			);
@@ -197,10 +203,12 @@
 				23904447296EAB04008B94E8 /* SpringAnimationsChallenge2.swift in Sources */,
 				236620312975D3F70099F6A3 /* TransitionsChallenge1.swift in Sources */,
 				2390442B296B07CB008B94E8 /* ContentView.swift in Sources */,
+				233C5C0F2997D48900792AAA /* MatchedGeometryEffectChallenge.swift in Sources */,
 				2390444B296F24EF008B94E8 /* TransitionsExercise.swift in Sources */,
 				23C9C2C4297801290028F3AE /* TransitionsChallenge2.swift in Sources */,
 				23904429296B07CB008B94E8 /* AnimationApp.swift in Sources */,
 				23904445296EA75D008B94E8 /* AnimationOptionsExercise.swift in Sources */,
+				233C5C112997D4DE00792AAA /* UtilityViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -65,6 +65,7 @@ struct ParkRowView: View {
                         .padding()
                         .frame(maxWidth: .infinity)
                         .background(Color(UIColor.systemBackground).opacity(0.4))
+                        .cornerRadius(30, corners: [.bottomLeft, .bottomRight])
                 }
             } else {
                 Image(item.imageName)
